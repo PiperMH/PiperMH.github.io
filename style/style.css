@@ -1,0 +1,29 @@
+#main{
+	background-color: transparent;
+
+}
+body{
+	
+
+}
+
+.jumbotron{
+	background-color: #ff975b;
+}
+
+.display-3{
+	font-weight: bold;
+}
+
+.navbar{
+	background-color: #ff975b;
+}
+
+#proPic{
+	height: 300px;
+	width: 300px
+}
+
+#imgCard{
+	margin-top: 75px;
+}
