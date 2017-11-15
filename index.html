@@ -9,6 +9,7 @@
         <!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link href="./style/style.css" rel="stylesheet">
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"> </script>
         <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     </head>
@@ -35,7 +36,7 @@
 	  </div>
 	</nav>
 
-
+	<!-- Headline Area-->
 	<div class="jumbotron jumbotron-fluid">
 	  <div class="container">
 	    <h1 class="display-3">JavaScript Developer</h1>
@@ -43,19 +44,103 @@
 	  </div>
 	</div>
 
-
-		<div class="col-sm-12">
-			<div class="card-body text-center" id="bioInfo">
-			Hi! My name is Piper Hayden. I currently reside in Plano, Texas. 
-			<br>
-			I am primarly a JavaScript developer with expeiernce in React JS framework. I am knowledgeable in both front-end and back-end development. 
-			<br>
-			In May of 2016 I recieved my BA in studio art with a concentration in design from Smith College. Come January of 2018 I will be recieving a certificate in full-stack web developement from Southern Methodist University. 
-			<br>
+	<!-- Bio and Personal Image-->
+	<br><br>
+	<div class="row">
+		<div class="col align-self-center text-center" id="bioInfo">
 			 <img src="assets/img/proImg.png" class= "img-responsive" alt="profilePic" id="proPic">
+		</div>
+	</div>	
+	<br>
 
+	<div class = "row justify-content-center">
+		<div class="col-6 text-center">
+			<p>Hi! My name is Piper Hayden. I currently reside in Plano, Texas.I am primarly a JavaScript developer with expeiernce in React JS framework. I am knowledgeable in both front-end and back-end development. </p>
+	
+			<p>In May of 2016 I recieved my BA in studio art with a concentration in design from Smith College. Come January of 2018 I will be recieving a certificate in full-stack web developement from Southern Methodist University.</p>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-8 text-center">
+		<button type="button" class="btn btn-link">Linkedin</button>
+		<button type="button" class="btn btn-link">GitHub</button>
+		<button type="button" class="btn btn-link">Email</button>
+		</div>
+		</div>
+	</div>
+	
+	<br><br><br><br>
+	<div class="row justify-content-center">
+		<div class="col-8 text-left">
+		<h1>Skill Set</h1>
+		</div>
+	</div>
+	<br>
+	<div class="row justify-content-center">
+		<div class="col-8 text-center">
+				<div class="card-body text-center" id="skillSet">
+					<canvas id="myChart"></canvas>
+				</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+	<div class="row justify-content-center">
+		<div class="col-8 text-left">
+		<h1>Projects</h1>
+		</div>
+	</div>
+	<br>
+	<div class="row justify-content-center">
+		<div class="col-8">
+		<div class="card-deck">
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h4 class="card-title">Charity Aggregator</h4>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <a href="#" class="btn btn-link">Go somewhere</a>
+		    </div>
 		  </div>
-		</div>	
+
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h4 class="card-title">N-stock</h4>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <a href="#" class="btn btn-link">Go somewhere</a>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	</div>
+	<br><br>
+	<div class="row justify-content-center">
+		<div class="col-8">
+		<div class="card-deck">
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h4 class="card-title">Card title</h4>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <a href="#" class="btn btn-link">Go somewhere</a>
+		    </div>
+		  </div>
+
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h4 class="card-title">Card title</h4>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <a href="#" class="btn btn-link">Go somewhere</a>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	</div>
+	
+
 
 
 
@@ -64,5 +149,6 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="app.js"> </script>
 </body>
 </html>

@@ -2,10 +2,7 @@
 	background-color: transparent;
 
 }
-body{
-	
 
-}
 
 .jumbotron{
 	background-color: #ff975b;
@@ -25,9 +22,12 @@ body{
 }
 
 #bioInfo{
-	padding-left: 200px;
-	padding-right: 200px;
 	font-weight: bold;
+}
+
+#myChart{
+	width: 400px;
+	height: 400px;
 }
 
 
