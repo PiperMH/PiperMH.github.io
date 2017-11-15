@@ -6,6 +6,7 @@
 
 .jumbotron{
 	background-color: #ff975b;
+	margin-bottom: 0;
 }
 
 .display-3{
@@ -22,12 +23,32 @@
 }
 
 #bioInfo{
+	padding-top: 50px;
 	font-weight: bold;
+	background-color: rgba(219, 219, 219,.5);
 }
 
+#bioPara{
+	background-color: rgba(219, 219, 219,.5);
+	margin-top: 0;
+}
+
+#links{
+	background-color: rgba(219, 219, 219,.5);
+	padding-bottom: 50px;
+}
+
+#skillRow{
+	padding-top: 100px;
+}
 #myChart{
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
+}
+
+#nStockImg{
+	height: 40%;
+	width: 20%;
 }
 
 
