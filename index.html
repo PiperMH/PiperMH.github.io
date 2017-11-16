@@ -19,7 +19,7 @@
 
 <body>
 
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-faded">
 	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -52,7 +52,7 @@
 	</div>	
 
 	<div class = "row justify-content-center" id="bioPara">
-		<div class="col-6 text-center">
+		<div class="col-7 text-center">
 			<p>Hi! My name is Piper Hayden. I currently reside in Plano, Texas.I am primarly a JavaScript developer with expeiernce in React JS framework. I am knowledgeable in both front-end and back-end development. </p>
 	
 			<p>In May of 2016 I recieved my BA in studio art with a concentration in design from Smith College. Come January of 2018 I will be recieving a certificate in full-stack web developement from Southern Methodist University.</p>
@@ -74,7 +74,7 @@
 		</div>
 	</div>
 	<br>
-	<div class="row justify-content-center">
+	<div class="row justify-content-center" id="chart">
 		<div class="col-8 text-center">
 				<div class="card-body text-center" id="skillSet">
 					<canvas id="myChart"></canvas>
@@ -82,21 +82,19 @@
 		</div>
 	</div>
 
-	<br><br><br><br>
-	<div class="row justify-content-center">
+	<div class="row justify-content-center" id="projectHeader">
 		<div class="col-8 text-left">
 		<h1>Projects</h1>
 		</div>
 	</div>
-	<br>
-	<div class="row justify-content-center">
+
+	<div class="row justify-content-center" id="projectWell">
 		<div class="col-8">
 		<div class="card-deck">
 		  <div class="card">
-		    <img class="card-img-top" src="" alt="Card image cap">
-		    <div class="card-body">
+		    <div class="card-body text-center">
 		      <h4 class="card-title">Charity Aggregator</h4>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <p class="card-text">Searches through a charity database and allows the ability to store favorites and notes. Uses JS/jQuery, API/AJAX, Firebase and Bootstrap</p>
 		      <a href="#" class="btn btn-link">Go somewhere</a>
 		    </div>
 		  </div>
@@ -111,13 +109,12 @@
 		</div>
 	</div>
 	</div>
-	<br><br>
-	<div class="row justify-content-center">
+
+	<div class="row justify-content-center" id="projectWell2">
 		<div class="col-8">
 		<div class="card-deck">
 		  <div class="card">
-		    <img class="card-img-top" src="..." alt="Card image cap">
-		    <div class="card-body">
+		    <div class="card-body text-center">
 		      <h4 class="card-title">Card title</h4>
 		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 		      <a href="#" class="btn btn-link">Go somewhere</a>
@@ -125,8 +122,7 @@
 		  </div>
 
 		  <div class="card">
-		    <img class="card-img-top" src="..." alt="Card image cap">
-		    <div class="card-body">
+		    <div class="card-body text-center">
 		      <h4 class="card-title">Card title</h4>
 		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 		      <a href="#" class="btn btn-link">Go somewhere</a>
@@ -134,6 +130,34 @@
 		  </div>
 		</div>
 	</div>
+	</div>
+
+	<div class="row justify-content-center" id="contactHeader">
+		<div class="col-8 text-left">
+		<h1>Get In Touch!</h1>
+		</div>
+	</div>
+
+	<div class="row justify-content-center" id="contact">
+		<div class="col-7">
+		<div class="container" id="container2">
+		  <form action="/action_page.php">
+
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		    
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		    <input type="submit" value="Submit">
+
+		  </form>
+		</div>
+		</div>
 	</div>
 	
 
