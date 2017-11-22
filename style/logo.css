@@ -1,5 +1,5 @@
 #ajax,#bootstrap,#css,#express,#jquery,#mongo,
-#handle,#html,#mocha,#my,#node,#js{
+#handle,#html,#mocha,#my,#node,#js,#react,#git,#adobe{
 	margin-right: 15px;
 	margin-left: 15px;
 }
@@ -9,7 +9,7 @@
 	height: 75px;
 }
 #bootstrap{
-	width: 120px;
+	width: 130px;
 	height: 80px;
 }
 
@@ -56,4 +56,19 @@
 #node{
 	width: 100px;
 	height:60px;
+}
+
+#react{
+	width: 130px;
+	height: 70px;
+}
+
+#git{
+	width:70px;
+	height: 70px;
+}
+
+#adobe{
+	width: 150px;
+	height: 60px;
 }
