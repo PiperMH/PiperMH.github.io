@@ -1,0 +1,59 @@
+#ajax,#bootstrap,#css,#express,#jquery,#mongo,
+#handle,#html,#mocha,#my,#node,#js{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#ajax{
+	width: 110px;
+	height: 75px;
+}
+#bootstrap{
+	width: 120px;
+	height: 80px;
+}
+
+#css{
+	height: 80px;
+	width: 50px;
+}
+
+#jquery{
+	width: 140px;
+	height: 60px;
+}
+
+#express, #mongo{
+	width: 140px;
+	height: 35px;
+}
+
+#handle{
+	width:140px;
+	height: 80px;
+}
+
+#html{
+	height: 80px;
+	width: 65px;
+}
+
+#js{
+	height: 80px;
+	width: 80px;
+}
+
+#mocha{
+	height:80px;
+	width: 70px;
+}
+
+#my{
+	width: 100px;
+	height: 50px;
+}
+
+#node{
+	width: 100px;
+	height:60px;
+}
