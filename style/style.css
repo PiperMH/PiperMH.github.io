@@ -51,18 +51,10 @@
 }
 
 #logos3{
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 }
-#bioPara,#links,#bioInfo{
+body{
 	background-color: rgb(242, 242, 242);
-}
-
-#skillRow,#logos,#logos2,#logos3{
-	background-color: rgb(242, 242, 242)
-}
-#projectHeader,#projectWell,
-#projectWell2{
-	background-color: rgb(242, 242, 242)
 }
 
 #projectHeader{
@@ -77,6 +69,10 @@
 #projectWell2{
 	padding-top: 25px;
 	padding-bottom: 100px;
+}
+
+.card{
+	margin-bottom: 10px;
 }
 
 footer{

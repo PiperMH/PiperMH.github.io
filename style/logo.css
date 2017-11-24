@@ -2,10 +2,12 @@
 #handle,#html,#mocha,#my,#node,#js,#react,#git,#adobe{
 	margin-right: 15px;
 	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #ajax{
-	width: 110px;
+	width: 120px;
 	height: 75px;
 }
 #bootstrap{
@@ -14,13 +16,13 @@
 }
 
 #css{
-	height: 80px;
-	width: 50px;
+	height: 90px;
+	width: 60px;
 }
 
 #jquery{
-	width: 140px;
-	height: 60px;
+	width: 160px;
+	height: 85px;
 }
 
 #express, #mongo{
@@ -34,13 +36,13 @@
 }
 
 #html{
-	height: 80px;
-	width: 65px;
+	height: 90px;
+	width: 70px;
 }
 
 #js{
 	height: 80px;
-	width: 80px;
+	width: 85px;
 }
 
 #mocha{
@@ -72,3 +74,4 @@
 	width: 150px;
 	height: 60px;
 }
+
