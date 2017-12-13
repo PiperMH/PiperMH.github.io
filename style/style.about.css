@@ -1,0 +1,64 @@
+
+
+.oneName{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 45px;
+	padding-right: 15px;
+    padding-left: 15px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+
+
+.two{
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:100;
+	font-size: 19px;
+	color: rgb(255, 255, 255);
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.btn-link{
+	color:white;
+}
+
+.thumbnail{
+	border-width: 0;
+	background-color: rgba(255, 255, 255);
+}
+
+.navbar{
+    padding: 10px;
+}
+
+#firstLogoRow{
+	margin-top: 70px;
+}
+
+#logoOne{
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#logoTwo{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#logoThree{
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#logoFour{
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+}

@@ -4,82 +4,78 @@
 }
 
 .jumbotron{
-	background-color: #7a7a7a;
 	margin-bottom: 0;
-	color: #fff;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
 }
 
-.container{
-	width: 100vw;
+#opening{
+	margin-top:2vh;
 }
 
+#main{
+	font-weight: bolder;
+}
+#memo{
+	color: rgb(255, 255, 255)
+}
 .navbar{
-	background-color: #80aec9;
+    padding: 10px;
 }
 
-#proPic{
-	height: 250px;
-	width: 250px
+.infoButton, .infoButton2, .infoButton3{
+    font-size: 16px;
+    font-weight: bold;
 }
 
-#bioInfo{
-	padding-top: 50px;
-	font-weight: bold;
-	padding-bottom: 20px;
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
-#bioPara{
-	margin-top: 0;
-	font-size: 20px;
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
-#links{
-	padding-bottom: 75px;
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-#skillRow{
-	padding-top: 25px;
-	padding-bottom: 20px;
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
 }
 
-#logos{
-	padding-bottom: 25px;
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
-#logos2{
-	padding-bottom: 25px;
-}
-
-#logos3{
-	padding-bottom: 50px;
-}
-body{
-	background-color: rgb(242, 242, 242);
-}
-
-#projectHeader{
- padding-top:25px;
-}
-
-#projectWell{
-	margin-top: 0;
-	padding-top: 25px;
-}
-
-#projectWell2{
-	padding-top: 25px;
-	padding-bottom: 100px;
-}
-
-.card{
-	margin-bottom: 10px;
-}
-
-footer{
-	background-color: #80aec9;
-	color: rgba(255,255,255, .5);
-	padding-top: 15px;
-	height: 50px;
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 
