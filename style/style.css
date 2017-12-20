@@ -4,7 +4,7 @@
 }
 
 #mainBody{
-    background: linear-gradient(to bottom right, rgba(78, 188, 203,.8), rgba(0, 109, 121, 0.8));
+    background: linear-gradient( rgba(78, 188, 203,.8), rgba(0, 89, 97, 0.9)) fixed no-repeat;
    
 }
 
