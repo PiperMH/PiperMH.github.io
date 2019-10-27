@@ -1,0 +1,87 @@
+@import 'functions', 'mixins', '_custom_bootstrap_variables';
+
+//Fonts
+$base-font: metropolis, sans-serif;
+
+//Colors
+$mine-shaft: #252525;
+$silver: #c3c3c3;
+$cinnabar: #dfa3a3;
+$lightning-yellow: #ffc128;
+$pizzaz: #ff8b00;
+$electric-violet: #7813d3;
+$fedex: #4d148c;
+$ghost: #CED4DA;
+$abbey: #535456;
+$emerald: #3bd352;
+$blue-downy-half: rgba(99, 198, 195, 0.5);
+$lochinvar: #379895;
+$aqua-island: #93D7D4;
+$silver: #CCCCCC;
+$silver-chalice: #b1b1b1;
+$dove-gray: #737373;
+$mercury: #E4E4E4;
+$alabaster: #F7F7F7;
+$withey: #FCFCFC;
+$fire: #B23F00;
+//new colors:
+$blue-downy: #63C6C3;
+$blue-iceberg: #d5f1ef;
+$gray-athens: #f8f9fa;
+$gray-dusty: #999999;
+$gray-iron: #dcddde;
+$gray-oslo: #939598;
+$red-cardinal: #ce2726;
+$red-soft: #e0bebe;
+$green-fun: #008614;
+
+//basic media handlers
+.hidden {
+    display: none;
+}
+.show-for-mobile-only {
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}
+.show-for-tablet-down {
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+.show-for-tablet-only {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+.show-for-tablet-up {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+.show-for-desktop-down {
+    @include media-breakpoint-up(xl) {
+        display: none;
+    }
+}
+.show-for-desktop-only {
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+    @include media-breakpoint-up(xl) {
+        display: none;
+    }
+}
+.show-for-desktop-up {
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+}
+.show-for-xl-only, .show-for-xl-up {
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+}

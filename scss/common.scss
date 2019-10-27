@@ -1,0 +1,38 @@
+/** IMPORTS **/
+@import 'functions', 'mixins', '_custom_bootstrap_variables';
+@import '_base';
+
+/*  RESET & SETUP BASIC HTML ELEMENTS */
+body{
+    font-family: $base-font;
+    color: $abbey;
+    font-weight: normal;
+}
+
+h1, h2, h3{
+    font-family: $base-font;
+    font-weight: bold;
+    color: $abbey;
+}
+h1 {
+    font-size: 2rem; /* mobile smaller font-size */
+    @include media-breakpoint-up(lg) {
+        font-size: 2.5rem;
+    }
+}
+
+/* General use */
+.bold {
+    font-weight: bold;
+}
+
+/*  CALL TO ACTIONs  */
+// Page Link Font Color
+a, .page-link {
+    color: $blue-downy;
+    &:hover {
+        color: $lochinvar;
+        text-decoration: none;
+    }
+}
+
