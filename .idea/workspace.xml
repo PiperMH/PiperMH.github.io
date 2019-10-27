@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +58,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="311" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="669" />
+    <option name="y" value="101" />
     <option name="width" value="1408" />
     <option name="height" value="1047" />
   </component>
@@ -77,11 +75,11 @@
           <expand>
             <path>
               <item name="PiperMH.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiperMH.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pipermh.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PiperMH.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiperMH.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pipermh.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -138,15 +136,15 @@
       <updated>1572108311997</updated>
       <workItem from="1572108313297" duration="20538000" />
       <workItem from="1572212131777" duration="554000" />
-      <workItem from="1572212719038" duration="601000" />
+      <workItem from="1572212719038" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21693000" />
+    <option name="totallyTimeSpent" value="22033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="72" width="1408" height="1047" extended-state="1" />
+    <frame x="669" y="101" width="1408" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35756677" />
