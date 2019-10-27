@@ -149,6 +149,9 @@
         @include media-breakpoint-down(sm){
           width: 90%;
         }
+        @include media-breakpoint-down(xs){
+          width: 60%;
+        }
       }
 
       @include media-breakpoint-down(sm){
