@@ -97,6 +97,9 @@
       border: none;
       outline: none;
       transition: 0.4s;
+      @include media-breakpoint-down(xs){
+        height: 60%;
+      }
       &.projOne{
         color: #ffffff;
         background-color: #55c7c3;
@@ -149,22 +152,12 @@
         @include media-breakpoint-down(sm){
           width: 90%;
         }
-        @include media-breakpoint-down(xs){
-          width: 60%;
-        }
       }
-
-      @include media-breakpoint-down(sm){
-        height: 60vh;
-      }
-    }
-
-    .panel{
-      margin: 0 75px;
     }
 
     /* Style the accordion panel. Note: hidden by default */
     .panel {
+      margin: 0 75px;
       padding: 0 18px;
       background-color: white;
       display: none;
