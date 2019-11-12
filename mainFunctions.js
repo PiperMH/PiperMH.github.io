@@ -16,3 +16,14 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+$(document).ready(function () {
+
+    $('.proccessButton').click(changeIcon);
+});
+
+
+function changeIcon(){
+    $('.openIcon').toggleClass('displayNone');
+    $('.closeIcon').toggleClass('displayNone')
+}

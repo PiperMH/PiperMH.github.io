@@ -60,12 +60,19 @@
       height: 100%;
       margin: 20px auto;
     }
+    @include media-breakpoint-down(sm){
+      margin: 0px auto;
+    }
     .img_container{
       display: flex;
       justify-content: center;
       margin: 15% auto 0;
       &.nonTop{
         margin: 15px;
+      }
+      &.process{
+        display: flex;
+        flex-direction: column;
       }
       .initLapImg{
         width: 90%;
@@ -84,6 +91,30 @@
       }
     }
 
+    .panel {
+      .portalProcess {
+
+        .process {
+          margin: 15px 0;
+          @include media-breakpoint-down(md) {
+            margin: 15px 0;
+          }
+
+          .subTitle {
+            font-weight: bold;
+          }
+
+          .desktopExamples {
+            width: 100%;
+
+            &.steps {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+
     .accordion {
       display: flex;
       justify-content: center;
@@ -97,8 +128,20 @@
       border: none;
       outline: none;
       transition: 0.4s;
+      @include media-breakpoint-down(lg) {
+        @media (orientation: landscape) {
+          height: 88vh;
+        }
+        @media (orientation: portrait) {
+          height: 50vh;
+        }
+      }
       @include media-breakpoint-down(sm){
-        height: 50vh;
+         height: 50vh;
+       }
+
+      @include media-breakpoint-down(xs){
+        height: 40vh;
       }
       &.projOne{
         color: #ffffff;
@@ -149,11 +192,78 @@
       .projExample{
         width: 80%;
         margin: 10% auto;
+        @include media-breakpoint-down(md) {
+          @media (orientation: landscape) {
+            width: 75%;
+            margin: 2% auto;
+          }
+          @media (orientation: portrait) {
+            width: 85%;
+            margin: 2% auto;
+          }
+        }
         @include media-breakpoint-down(sm){
-          width: 90%;
+          width: 80%;
+          margin: 4% auto;
+        }
+      }
+      @include media-breakpoint-down(xs){
+        h2{
+          font-size: 1rem;
         }
       }
     }
+
+    .accordion {
+      &.proccessButton{
+        background-color: #ffffff;
+        padding: 20px 75px;
+        @include media-breakpoint-down(sm){
+          padding: 20px 25px;
+        }
+        font-family: metropolis,sans-serif;
+        font-size: 16px;
+        height: initial;
+        &:hover{
+          background-color: #e7eae2;
+          color: #008581;
+          h3{
+            color: #008581;
+          }
+          .openIcon, .closeIcon {
+            color: #008581;
+          }
+        }
+        &.active{
+          background-color: #e7eae2;
+          color: #008581;
+          h3{
+            color: #008581;
+          }
+          .openIcon, .closeIcon {
+            color: #008581;
+          }
+        }
+        .iconholder{
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          .openIcon, .closeIcon{
+            &.displayNone{
+              display: none;
+            }
+          }
+        }
+        .img_container{
+          margin: 0;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+
+
 
     /* Style the accordion panel. Note: hidden by default */
     .panel {
@@ -162,9 +272,21 @@
       background-color: white;
       display: none;
       overflow: hidden;
-      @include media-breakpoint-down(md){
+      .nonTop{
+        .desktopExamples{
+          width: 100%;
+        }
+      }
+      @include media-breakpoint-down(lg){
         margin: 0 25px;
       }
+      @include media-breakpoint-down(sm){
+        margin: 0 10px;
+        p{
+          font-size: 14px;
+        }
+      }
+
     }
   }
 }
