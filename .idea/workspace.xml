@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/catalog1mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/catalog2mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/horizonTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobileDisplayTrackerDetails.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobileDisplayTrackerDetails2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobileOnboarding1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobileOnboarding2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/onboardMob1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/onboardMob2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/onboarding1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/onboarding2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/trackerPhoneOpen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tracking.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/landingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/landingPage.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,14 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="227" column="14" lean-forward="true" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+            <state relative-caret-position="1885">
+              <caret line="244" column="30" lean-forward="true" selection-start-line="244" selection-start-column="30" selection-end-line="244" selection-end-column="30" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -57,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/landingPage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+            <state relative-caret-position="548">
+              <caret line="213" column="23" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -79,6 +63,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>portal</find>
+      <find>workflow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,17 +81,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/mainFunctions.js" />
-        <option value="$PROJECT_DIR$/scss/landingPage.scss" />
-        <option value="$PROJECT_DIR$/scss/landingPage.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/landingPage.scss" />
+        <option value="$PROJECT_DIR$/scss/landingPage.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="229" />
-    <option name="y" value="79" />
-    <option name="width" value="1440" />
-    <option name="height" value="779" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="652" />
+    <option name="y" value="630" />
+    <option name="width" value="1176" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -190,12 +175,12 @@
       <workItem from="1572108313297" duration="20538000" />
       <workItem from="1572212131777" duration="554000" />
       <workItem from="1572212719038" duration="6737000" />
-      <workItem from="1573328996038" duration="43553000" />
+      <workItem from="1573328996038" duration="44405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71382000" />
+    <option name="totallyTimeSpent" value="72234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -266,13 +251,6 @@
     <entry file="file://$PROJECT_DIR$/images/tracker_lap_mob.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/landingPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -282,14 +260,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="227" column="14" lean-forward="true" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+        <state relative-caret-position="1885">
+          <caret line="244" column="30" lean-forward="true" selection-start-line="244" selection-start-column="30" selection-end-line="244" selection-end-column="30" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/landingPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="213" column="23" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
         </state>
       </provider>
     </entry>

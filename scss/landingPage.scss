@@ -95,6 +95,9 @@
         width: 50%;
         &.tablet{
           width: 60%;
+          @include media-breakpoint-down(md){
+            width: 80%;
+          }
         }
         @include media-breakpoint-down(sm){
           width: 75%;
@@ -145,6 +148,9 @@
       .workflowTitle{
         text-align: center;
         font-style: italic;
+        @include media-breakpoint-down(md){
+          font-size: 14px;
+        }
       }
     }
       .portalProcess {
@@ -170,10 +176,18 @@
             }
           }
         }
+        .issuesList{
+          @include media-breakpoint-down(md) {
+            padding-left: .5rem;
+          }
+        }
         .issue{
           margin: 0;
-          padding: 36px 0 36px 84px;
+          padding: 30px 0 30px 84px;
           list-style: none;
+          @include media-breakpoint-down(md){
+            padding: 20px 0 20px 67px;
+          }
           &.systems {
             background-image: url("../images/computer.png");
           }
@@ -186,11 +200,19 @@
           background-repeat: no-repeat;
           background-position: left center;
           background-size: 40px;
+          @include media-breakpoint-down(md){
+            background-size: 30px;
+          }
+
+
         }
         .process{
           margin-bottom: 5%;
           .processPoint{
             margin: 1% 0;
+            @include media-breakpoint-down(md){
+              margin: 2% 0;
+            }
           }
         }
 
@@ -198,6 +220,9 @@
           .workflowTitle{
             text-align: center;
             font-style: italic;
+            @include media-breakpoint-down(md){
+              font-size: 14px;
+            }
           }
         }
         .mockupContainer{
@@ -211,6 +236,9 @@
         .workflowTitle{
           text-align: center;
           font-style: italic;
+          @include media-breakpoint-down(md){
+            font-size: 14px;
+          }
         }
       }
 
@@ -343,6 +371,9 @@
         text-align: center;
         font-style: italic;
         margin-bottom: 8%;
+        @include media-breakpoint-down(md){
+          font-size: 14px;
+        }
       }
 
       .portal{
