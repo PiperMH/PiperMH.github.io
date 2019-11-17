@@ -75,18 +75,34 @@
         display: flex;
         flex-direction: column;
       }
+      &.trackerImg{
+        margin-right: 0;
+        margin-left: 0;
+      }
+      .individualPhone{
+        width: 35%;
+      }
       .initLapImg{
         width: 90%;
       }
+      &.onboardingApp{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1%;
+      }
+
       .mobileExample{
         width: 50%;
+        &.tablet{
+          width: 60%;
+        }
         @include media-breakpoint-down(sm){
           width: 75%;
         }
       }
     }
     .portalIntro{
-      margin: 0 75px;
+      margin: 0 6%;
       @include media-breakpoint-down(md){
         margin: 0 25px;
       }
@@ -101,18 +117,34 @@
         .group{
           display: flex;
           flex-direction: row;
-          padding: 0 1%;
-          .details{
+          @include media-breakpoint-down(md){
+            flex-direction: column;
             margin-bottom: 3%;
-            .title{
-              margin-bottom: 2%;
-              color: #38393b;
+            &.first{
+              margin-bottom: 1%;
             }
-            .description{
-              line-height: 25px;
+          }
+          .info{
+            flex-grow: 1;
+            flex-basis: 0;
+            .details{
+              margin-bottom: 3%;
+              .title{
+                font-size: 1rem;
+                font-weight: 400;
+                margin-bottom: 2%;
+                color: #38393b;
+              }
+              .description{
+                line-height: 25px;
+              }
             }
           }
         }
+      }
+      .workflowTitle{
+        text-align: center;
+        font-style: italic;
       }
     }
       .portalProcess {
@@ -176,8 +208,10 @@
             font-style: italic;
           }
         }
-
-
+        .workflowTitle{
+          text-align: center;
+          font-style: italic;
+        }
       }
 
 
@@ -285,10 +319,12 @@
     /* Style the accordion panel. Note: hidden by default */
     .panel {
       margin: 0 75px;
-      padding: 0 18px;
       background-color: white;
       display: none;
       overflow: hidden;
+      .intro{
+        margin: 5% 0;
+      }
       .nonTop{
         .desktopExamples{
           width: 100%;
@@ -303,7 +339,49 @@
           font-size: 14px;
         }
       }
+      .workflowTitle{
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 8%;
+      }
 
+      .portal{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        //border-bottom: 1px solid #b1b1b1;
+        font-size: 14px;
+        @include media-breakpoint-down(md){
+          flex-wrap: wrap;
+        }
+        .group{
+          display: flex;
+          flex-direction: row;
+          @include media-breakpoint-down(md){
+            flex-direction: column;
+            margin-bottom: 3%;
+            &.first{
+              margin-bottom: 1%;
+            }
+          }
+          .info{
+            flex-grow: 1;
+            flex-basis: 0;
+            .details{
+              margin-bottom: 3%;
+              .title{
+                font-size: 1rem;
+                font-weight: 400;
+                margin-bottom: 2%;
+                color: #38393b;
+              }
+              .description{
+                line-height: 25px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
