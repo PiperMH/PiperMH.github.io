@@ -54,6 +54,7 @@
     width: 70%;
     p{
       line-height: 25px;
+      margin-top: 3%;
     }
     @include media-breakpoint-down(md){
       width: 100%;
@@ -89,11 +90,36 @@
       @include media-breakpoint-down(md){
         margin: 0 25px;
       }
+      .portal{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #b1b1b1;
+        font-size: 14px;
+        @include media-breakpoint-down(md){
+          flex-wrap: wrap;
+        }
+        .group{
+          display: flex;
+          flex-direction: row;
+          padding: 0 1%;
+          .details{
+            margin-bottom: 3%;
+            .title{
+              margin-bottom: 2%;
+              color: #38393b;
+            }
+            .description{
+              line-height: 25px;
+            }
+          }
+        }
+      }
     }
-
-    .panel {
       .portalProcess {
-
+        margin: 0 75px;
+        @include media-breakpoint-down(md) {
+          margin: 0 25px;
+        }
         .process {
           margin: 15px 0;
           @include media-breakpoint-down(md) {
@@ -101,7 +127,7 @@
           }
 
           .subTitle {
-            font-weight: bold;
+            font-weight: normal;
           }
 
           .desktopExamples {
@@ -112,8 +138,48 @@
             }
           }
         }
+        .issue{
+          margin: 0;
+          padding: 36px 0 36px 84px;
+          list-style: none;
+          &.systems {
+            background-image: url("../images/computer.png");
+          }
+          &.reports{
+            background-image: url("../images/chart.png");
+          }
+          &.automated{
+            background-image: url("../images/gears.png");
+          }
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 40px;
+        }
+        .process{
+          margin-bottom: 5%;
+          .processPoint{
+            margin: 1% 0;
+          }
+        }
+
+        .workflows{
+          .workflowTitle{
+            text-align: center;
+            font-style: italic;
+          }
+        }
+        .mockupContainer{
+          margin: 5% 0;
+          .mockupTitle{
+            margin: 3% 0;
+            text-align: center;
+            font-style: italic;
+          }
+        }
+
+
       }
-    }
+
 
     .accordion {
       display: flex;
@@ -210,55 +276,6 @@
       @include media-breakpoint-down(xs){
         h2{
           font-size: 1rem;
-        }
-      }
-    }
-
-    .accordion {
-      &.proccessButton{
-        background-color: #ffffff;
-        padding: 20px 75px;
-        @include media-breakpoint-down(sm){
-          padding: 20px 25px;
-        }
-        font-family: metropolis,sans-serif;
-        font-size: 16px;
-        height: initial;
-        &:hover{
-          background-color: #e7eae2;
-          color: #008581;
-          h3{
-            color: #008581;
-          }
-          .openIcon, .closeIcon {
-            color: #008581;
-          }
-        }
-        &.active{
-          background-color: #e7eae2;
-          color: #008581;
-          h3{
-            color: #008581;
-          }
-          .openIcon, .closeIcon {
-            color: #008581;
-          }
-        }
-        .iconholder{
-          display: flex;
-          width: 100%;
-          justify-content: center;
-          .openIcon, .closeIcon{
-            &.displayNone{
-              display: none;
-            }
-          }
-        }
-        .img_container{
-          margin: 0;
-          img{
-            width: 100%;
-          }
         }
       }
     }
