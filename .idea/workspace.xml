@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/landingPage2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/landingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/landingPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/version1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index2.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
               <caret line="50" column="126" selection-start-line="50" selection-start-column="126" selection-end-line="50" selection-end-column="126" />
@@ -131,11 +127,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\phayden\Desktop\pipermh.github.io\version1" />
       <recent name="C:\Users\phayden\Desktop\pipermh.github.io\images" />
       <recent name="C:\Users\phayden\Desktop\PiperMH.github.io" />
       <recent name="C:\Users\phayden\Desktop\MastersPortfolio\images" />
       <recent name="C:\Users\phayden\Desktop\MastersPortfolio" />
-      <recent name="C:\Users\phayden\Desktop\MastersPortfolio\Views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phayden\Desktop\pipermh.github.io\images" />
@@ -170,16 +166,15 @@
       <workItem from="1572108313297" duration="20538000" />
       <workItem from="1572212131777" duration="554000" />
       <workItem from="1572212719038" duration="6737000" />
-      <workItem from="1573328996038" duration="57913000" />
+      <workItem from="1573328996038" duration="58185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85742000" />
+    <option name="totallyTimeSpent" value="86014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -252,7 +247,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/version1/version1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="173" column="34" selection-end-line="379" selection-end-column="7" />
@@ -276,7 +271,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="50" column="126" selection-start-line="50" selection-start-column="126" selection-end-line="50" selection-end-column="126" />
