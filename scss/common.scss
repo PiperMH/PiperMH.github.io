@@ -26,13 +26,3 @@ h1 {
     font-weight: bold;
 }
 
-/*  CALL TO ACTIONs  */
-// Page Link Font Color
-a, .page-link {
-    color: $blue-downy;
-    &:hover {
-        color: $lochinvar;
-        text-decoration: none;
-    }
-}
-
