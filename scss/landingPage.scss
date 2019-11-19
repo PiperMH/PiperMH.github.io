@@ -261,6 +261,9 @@
       border: none;
       outline: none;
       transition: 0.4s;
+      .mobileOpen{
+        color: #535456;
+      }
       @include media-breakpoint-down(lg) {
         @media (orientation: landscape) {
           height: 100%;
@@ -272,7 +275,6 @@
       @include media-breakpoint-down(sm){
          height: 100%;
        }
-      
       &.projOne{
         color: #ffffff;
         background-color: #55c7c3;
