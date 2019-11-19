@@ -272,10 +272,7 @@
       @include media-breakpoint-down(sm){
          height: 100%;
        }
-
-      @include media-breakpoint-down(xs){
-        height: 40vh;
-      }
+      
       &.projOne{
         color: #ffffff;
         background-color: #55c7c3;
