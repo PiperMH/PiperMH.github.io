@@ -84,18 +84,21 @@
       }
       .initLapImg{
         width: 90%;
-        height: auto;
+        height: 100%;
       }
       &.onboardingApp{
         width: 80%;
+        height: 100%;
         margin: auto;
         margin-bottom: 1%;
       }
 
       .mobileExample{
         width: 50%;
+        height: 100%;
         &.tablet{
           width: 60%;
+          height: 100%;
           @include media-breakpoint-down(md){
             width: 80%;
           }
