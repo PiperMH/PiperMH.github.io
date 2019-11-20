@@ -1,0 +1,270 @@
+/** IMPORTS **/
+@import 'functions', 'mixins', '_custom_bootstrap_variables';
+@import '_base';
+
+
+.mainContainer{
+  display: flex;
+  @include media-breakpoint-down(md){
+    flex-direction: column;
+  }
+  .nameContainer{
+    background-color: #15161c;
+    width: 30%;
+    @include media-breakpoint-down(md){
+      width: 100%;
+    }
+    .bioContent{
+      font-size: 40px;
+      margin-top: 70%;
+      margin-left: 20px;
+      margin-right: 20px;
+      position: sticky;
+      top: 44%;
+      @include media-breakpoint-down(md){
+        margin: 20% 20px;
+        font-size: 30px;
+      }
+      .name{
+        color: #fff;
+      }
+      .designer{
+        background-image: linear-gradient(to left, violet, indigo, blue, green, #ff00d0,orange,red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .developer{
+        background-image: linear-gradient(to left, #1d1d1d,#5a5a5a,#d3d3d3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .blip{
+        color: #ffffff;
+        font-size: 25px;
+        @include media-breakpoint-down(sm){
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .contentContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 70%;
+    p{
+      line-height: 25px;
+      margin-top: 3%;
+    }
+    @include media-breakpoint-down(md){
+      width: 100%;
+      height: 100%;
+    }
+    @include media-breakpoint-down(sm){
+      margin: 0px auto;
+      p {
+        font-size: 14px;
+      }
+      h3{
+        font-size: 16px;
+      }
+    }
+    .img_container{
+      display: flex;
+      justify-content: center;
+      margin: 15% auto 0;
+      &.nonTop{
+        margin: 15px;
+      }
+      &.process{
+        display: flex;
+        flex-direction: column;
+      }
+      &.trackerImg{
+        margin-right: 0;
+        margin-left: 0;
+      }
+      .individualPhone{
+        width: 35%;
+      }
+      .initLapImg{
+        width: 90%;
+        height: 100%;
+      }
+      &.onboardingApp{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 1%;
+      }
+
+      .mobileExample{
+        width: 50%;
+        height: 100%;
+        &.tablet{
+          width: 60%;
+          height: 100%;
+          @include media-breakpoint-down(md){
+            width: 80%;
+          }
+        }
+        @include media-breakpoint-down(sm){
+          width: 75%;
+        }
+      }
+    }
+    .portalIntro{
+      .contentOne{
+        display: none;
+      }
+      .projectContainer{
+        &.quadSquares{
+          overflow: hidden;
+          .twoProjHolder{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            height: 50vh;
+            @include media-breakpoint-down(sm){
+              flex-direction: column;
+              height: auto;
+            }
+            .projects{
+              display: flex;
+              justify-content: center;
+              padding: 1rem;
+              width: 50vw;
+              height: 50vh;
+              &:hover{
+                .projDisplay{
+                  &.grow{
+                    transition: all .3s ease-in-out;
+                  }
+                  &.grow:hover{
+                    transform: scale(1.05);
+                  }
+                }
+              }
+              @include media-breakpoint-down(sm){
+                width: auto;
+                text-align: center;
+                h2{
+                  font-size: 1rem;
+                }
+              }
+              a{
+                margin: auto;
+                text-decoration: none;
+              }
+              &.projOne{
+                background-color: rgb(85, 199, 195);
+                &:hover{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+                &.active{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+              }
+              &.projTwo{
+                background-color: rgb(152, 232, 229);
+                &:hover{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+                &.active{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+              }
+              &.projThree{
+                background-color: rgb(200, 240, 239);
+                &:hover{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+                &.active{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+              }
+              &.projFour{
+                background-color: rgb(220, 240, 238);
+                &:hover{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+                &.active{
+                  background-color: #008581;
+                  h2{
+                    color: #fff;
+                  }
+                }
+              }
+              .innerDiv{
+                width: 90%;
+                margin: auto;
+                .projDisplay{
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+        &.horzSquares{
+          display: flex;
+          flex-direction: row;
+          overflow: auto;
+          .twoProjHolder{
+            .projects{
+              width: auto;
+              height: auto;
+              h2{
+                font-size: 1rem;
+                @include media-breakpoint-down(sm) {
+                  font-size: 12px;
+                  font-weight: normal;
+                }
+                @include media-breakpoint-down(xs) {
+                  font-size: 10px;
+                }
+              }
+              @include media-breakpoint-down(xs){
+                padding: 8px;
+                .projDisplay{
+                  display: none;
+                }
+              }
+            }
+            @include media-breakpoint-down(sm) {
+              flex-direction: row;
+              height: auto;
+            }
+            }
+          }
+        }
+      }
+      .workflowTitle{
+        text-align: center;
+        font-style: italic;
+        @include media-breakpoint-down(md){
+          font-size: 14px;
+        }
+      }
+    }
+  }
