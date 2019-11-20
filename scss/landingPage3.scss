@@ -134,7 +134,14 @@
               justify-content: center;
               padding: 1rem;
               width: 50vw;
-              height: 50vh;
+              height: auto;
+              border-width: 12px;
+              border-style: solid;
+              background-color: #f8f8f8;
+              text-align: center;
+              h2{
+                font-weight: 500;
+              }
               &:hover{
                 .projDisplay{
                   &.grow{
@@ -157,63 +164,39 @@
                 text-decoration: none;
               }
               &.projOne{
-                background-color: rgb(85, 199, 195);
+                border-color: rgb(85, 199, 195);
                 &:hover{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(85, 199, 195);
                 }
                 &.active{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(85, 199, 195);
                 }
               }
               &.projTwo{
-                background-color: rgb(152, 232, 229);
+                border-color: rgb(152, 232, 229);
                 &:hover{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(152, 232, 229);
                 }
                 &.active{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(152, 232, 229);
                 }
               }
               &.projThree{
-                background-color: rgb(200, 240, 239);
+                border-color: rgb(200, 240, 239);
                 &:hover{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(200, 240, 239);
                 }
                 &.active{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color: rgb(200, 240, 239);
                 }
               }
               &.projFour{
-                background-color: rgb(220, 240, 238);
+                border-color:  rgb(220, 240, 238);
                 &:hover{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color:  rgb(220, 240, 238);
                 }
                 &.active{
-                  background-color: #008581;
-                  h2{
-                    color: #fff;
-                  }
+                  background-color:  rgb(220, 240, 238);
                 }
               }
               .innerDiv{
