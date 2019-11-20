@@ -4,9 +4,13 @@
 
 
   .contentOne {
+    background-color: rgb(85, 199, 195);
+    padding-top: 2rem;
     .innerContainer {
+      background-color: #f8f8f8;
       display: flex;
       flex-direction: column;
+      width: 80%;
 
       p {
         line-height: 25px;

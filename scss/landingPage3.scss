@@ -217,6 +217,12 @@
             .projects{
               width: auto;
               height: auto;
+              @include media-breakpoint-down(sm){
+                border-width: 10px;
+              }
+              @include media-breakpoint-down(xs){
+                border-width: 6px;
+              }
               h2{
                 font-size: 1rem;
                 @include media-breakpoint-down(sm) {
