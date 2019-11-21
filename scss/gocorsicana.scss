@@ -3,9 +3,9 @@
 @import '_base';
 
 
-  .contentOne {
-    background-color: rgb(85, 199, 195);
-    padding-top: 2rem;
+  .contentOne, .contentTwo, .contentThree, .contentFour {
+    //background-color: rgb(85, 199, 195);
+   // padding-top: 2rem;
     .innerContainer {
       background-color: #f8f8f8;
       display: flex;

@@ -114,9 +114,12 @@
       }
     }
     .portalIntro{
-      .contentOne{
+      /*.hide{
         display: none;
       }
+      .show{
+        display: flex;
+      }*/
       .projectContainer{
         &.quadSquares{
           overflow: hidden;
@@ -139,6 +142,12 @@
               border-style: solid;
               background-color: #f8f8f8;
               text-align: center;
+              &.active{
+                background-color: rgb(85, 199, 195);
+              }
+              &:hover{
+                cursor: pointer;
+              }
               h2{
                 font-weight: 500;
               }
@@ -165,38 +174,38 @@
               }
               &.projOne{
                 border-color: rgb(85, 199, 195);
-                &:hover{
+                &.active{
                   background-color: rgb(85, 199, 195);
                 }
-                &.active{
+                &:hover{
                   background-color: rgb(85, 199, 195);
                 }
               }
-              &.projTwo{
-                border-color: rgb(152, 232, 229);
-                &:hover{
-                  background-color: rgb(152, 232, 229);
-                }
-                &.active{
-                  background-color: rgb(152, 232, 229);
-                }
+             &.projTwo{
+               border-color: rgb(85, 199, 195);
+               &:active{
+                 background-color: rgb(85, 199, 195);
+               }
+               &:hover{
+                 background-color: rgb(85, 199, 195);
+               }
               }
               &.projThree{
-                border-color: rgb(200, 240, 239);
-                &:hover{
-                  background-color: rgb(200, 240, 239);
+                border-color: rgb(85, 199, 195);
+                &:active{
+                  background-color: rgb(85, 199, 195);
                 }
-                &.active{
-                  background-color: rgb(200, 240, 239);
+                &:hover{
+                  background-color: rgb(85, 199, 195);
                 }
               }
               &.projFour{
-                border-color:  rgb(220, 240, 238);
-                &:hover{
-                  background-color:  rgb(220, 240, 238);
+                border-color: rgb(85, 199, 195);
+                &:active{
+                  background-color: rgb(85, 199, 195);
                 }
-                &.active{
-                  background-color:  rgb(220, 240, 238);
+                &:hover{
+                  background-color: rgb(85, 199, 195);
                 }
               }
               .innerDiv{
@@ -214,9 +223,17 @@
           flex-direction: row;
           overflow: auto;
           .twoProjHolder{
+            .innerDiv{
+              width: 90%;
+              margin: auto;
+              .projDisplay{
+                width: 100%;
+              }
+            }
             .projects{
               width: auto;
               height: auto;
+              cursor: pointer;
               @include media-breakpoint-down(sm){
                 border-width: 10px;
               }
