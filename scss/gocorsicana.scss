@@ -4,6 +4,16 @@
 
 
   .contentOne, .contentTwo, .contentThree, .contentFour {
+    border: 12px solid #55c7c3;
+    border-bottom: 100px solid #55c7c3;
+    @include media-breakpoint-down(sm){
+      border-width: 10px;
+      border-bottom: 50px solid #55c7c3;
+    }
+    @include media-breakpoint-down(xs){
+      border-width: 6px;
+      border-bottom: 50px solid #55c7c3;
+    }
     //background-color: rgb(85, 199, 195);
    // padding-top: 2rem;
     .innerContainer {

@@ -144,9 +144,15 @@
               text-align: center;
               &.active{
                 background-color: rgb(85, 199, 195);
+                h2{
+                  color: #fff;
+                }
               }
               &:hover{
                 cursor: pointer;
+                h2{
+                  color: #fff;
+                }
               }
               h2{
                 font-weight: 500;
@@ -223,6 +229,7 @@
           flex-direction: row;
           overflow: auto;
           .twoProjHolder{
+            height: 30vh;
             .innerDiv{
               width: 90%;
               margin: auto;
