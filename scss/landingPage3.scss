@@ -114,12 +114,6 @@
       }
     }
     .portalIntro{
-      /*.hide{
-        display: none;
-      }
-      .show{
-        display: flex;
-      }*/
       .projectContainer{
         &.quadSquares{
           overflow: hidden;
@@ -266,7 +260,7 @@
             }
             @include media-breakpoint-down(sm) {
               flex-direction: row;
-              height: auto;
+              height: 15vh;
             }
             }
           }
