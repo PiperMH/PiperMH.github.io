@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gocorsicana.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gocorsicana.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/landingPage3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landingPage3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/gocorsicana.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/gocorsicana.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/landingPage3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/landingPage3.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/landingPage3.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="231" column="25" selection-start-line="231" selection-start-column="25" selection-end-line="231" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -211,12 +207,12 @@
       <workItem from="1572212131777" duration="554000" />
       <workItem from="1572212719038" duration="6737000" />
       <workItem from="1573328996038" duration="79656000" />
-      <workItem from="1574260040845" duration="23427000" />
+      <workItem from="1574260040845" duration="23687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130912000" />
+    <option name="totallyTimeSpent" value="131172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -380,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/landingPage3.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="231" column="25" selection-start-line="231" selection-start-column="25" selection-end-line="231" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
         </state>
       </provider>
     </entry>
