@@ -5,14 +5,14 @@
 
   .contentOne, .contentTwo, .contentThree, .contentFour {
     border: 12px solid #55c7c3;
+    border-right: 0;
+    border-left: 0;
     border-bottom: 100px solid #55c7c3;
-    background-color: #f8f8f8;
+    background-color: #fbfbfb;
     @include media-breakpoint-down(sm){
-      border-width: 10px;
       border-bottom: 50px solid #55c7c3;
     }
     @include media-breakpoint-down(xs){
-      border-width: 6px;
       border-bottom: 50px solid #55c7c3;
     }
     //background-color: rgb(85, 199, 195);
@@ -20,7 +20,6 @@
     .innerContainer {
       display: flex;
       flex-direction: column;
-      width: 80%;
 
       p {
         line-height: 25px;
@@ -86,36 +85,97 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 8rem;
-        @include media-breakpoint-down(sm){
-          margin-top: 4rem;
+        width: 60%;
+        text-align: left;
+        margin: 6rem auto;
+        @include media-breakpoint-down(md){
+          width: 90%;
+          margin: 2rem auto;
         }
-        text-align: center;
-
-        .role {
+        h2{
           font-size: 2rem;
-          font-weight: 600;
+          @include media-breakpoint-down(sm){
+            font-size: 1.5rem;
+          }
+        }
+        .role {
+          h2{
+            color: #55c7c3;
+          }
           @include media-breakpoint-down(sm) {
             font-size: 1.2rem;
           }
         }
+        .introContent{
+          font-size: 1.125rem;
+          font-weight: bold;
+          .description{
+            font-weight: normal;
+          }
 
-        .description {
-          margin: 1rem 10rem 3rem 10rem;
-          @include media-breakpoint-down(md) {
-            font-size: 14px;
-            margin: 1rem 1rem 1rem;
+        }
+      }
+      .subContent{
+        h2{
+         font-size:2rem;
+         color:#55c7c3;
+          @include media-breakpoint-down(sm){
+            font-size: 1.5rem;
+          }
+        }
+        h1{
+          font-size: 3.5rem;
+          @include media-breakpoint-down(sm){
+            font-size: 2rem;
+          }
+        }
+        .titleContainer {
+          background-image: linear-gradient(to right, indigo, #55C7C3);
+          display: flex;
+          height: 200px;
+          .title {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            .name {
+              color: #ffffff;
+            }
+          }
+        }
+        .description{
+          display: flex;
+          width: 90%;
+          margin: auto;
+          margin-top: 15rem;
+          font-size: 1.125rem;
+          @include media-breakpoint-down(md){
+            margin: 0 1rem;
+            flex-direction: column;
+          }
+
+          .verbage{
+            width: 40%;
+            margin: auto;
+            @include media-breakpoint-down(md){
+              width: auto;
+            }
+          }
+          .relatedImage{
+            display: flex;
+            justify-content: flex-end;
+            width: 60%;
+            margin: auto;
+            @include media-breakpoint-down(md){
+              width: auto;
+            }
+            .contentImage{
+              width: 90%;
+            }
           }
         }
       }
 
       margin: auto;
-      @include media-breakpoint-down(md) {
-        width: 80%;
-      }
-      @include media-breakpoint-down(sm) {
-        width: 92%
-      }
 
       .portal {
         display: flex;
@@ -153,6 +213,7 @@
 
               .description {
                 line-height: 25px;
+                font-size: 1.125rem;
               }
             }
           }

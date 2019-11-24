@@ -1,5 +1,11 @@
 $(document).ready(function () {
        $('.contentOne, .contentTwo, .contentThree, .contentFour').hide();
+              $(window).resize(function(){
+                     alterClass();
+              });
+              //Fire it when the page first loads:
+              alterClass();
+
 });
 $('.projOne').click(function(e){
        if ($(this).hasClass('active')) {
@@ -64,27 +70,21 @@ $('.projFour').click(function(e){
 
 });
 
-
-
-/*$('.projTwo').click(function(e){
-
-       $('.contentTwo').toggle();
-       $('.contentThree').hide();
-       $('.contentFour').hide();
-       $('.contentOne').hide();
+$('.collapseIcon').click(function(e){
+       $('.nameContainer').toggleClass('collapse');
+       $('.mainContainer').toggleClass('collapse');
+       $('.contentContainer').toggleClass('collapse');
+       $('.innerDiv').toggleClass('collapse');
 });
-$('.projThree').click(function(e){
-       $('.contentThree').toggle();
-       $('.contentTwo').hide();
-       $('.contentFour').hide();
-       $('.contentOne').hide();
-});
-$('.projFour').click(function(e){
-       $('.contentFour').toggle();
-       $('.contentTwo').hide();
-       $('.contentThree').hide();
-       $('.contentOne').hide();
-});*/
+
+function alterClass(){
+       var ww = document.body.clientWidth;
+       if (ww < 1026) {
+              $('.nameContainer, .mainContainer, .contentContainer, .innerDiv').removeClass('collapse');
+       }
+};
+
+
 
 
 

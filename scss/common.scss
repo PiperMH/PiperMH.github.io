@@ -4,13 +4,12 @@
 
 /*  RESET & SETUP BASIC HTML ELEMENTS */
 body{
-    font-family: $base-font;
-    color: $abbey;
+    font-family: $body-font;
     font-weight: normal;
 }
 
 h1, h2, h3{
-    font-family: $base-font;
+    font-family: $title-font;
     font-weight: bold;
     color: $abbey;
 }
