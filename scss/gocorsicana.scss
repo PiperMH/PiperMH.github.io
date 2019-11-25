@@ -116,6 +116,7 @@
         }
       }
       .subContent{
+        margin-bottom: 10rem;
         h2{
          font-size:2rem;
          color:#55c7c3;
@@ -133,12 +134,16 @@
           background-image: linear-gradient(to right, indigo, #55C7C3);
           display: flex;
           height: 200px;
+          @include media-breakpoint-down(md){
+            height: 130px;
+          }
           .title {
             display: flex;
             justify-content: center;
             margin: auto;
             .name {
               color: #ffffff;
+              margin: 1rem;
             }
           }
         }
@@ -148,9 +153,41 @@
           margin: auto;
           margin-top: 15rem;
           font-size: 1.125rem;
-          @include media-breakpoint-down(md){
-            margin: 0 1rem;
+          &.bottomImage{
             flex-direction: column;
+            width: 60%;
+            .verbage{
+              margin-bottom: 5rem;
+            }
+            .verbage, .relatedImage{
+              width: initial;
+            }
+          }
+          &.images{
+            margin-top: 10rem;
+            &.mobileVersion{
+              @include media-breakpoint-up(lg){
+                display: none;
+              }
+              @include media-breakpoint-down(md){
+                display: flex;
+              }
+            }
+          }
+          &.oneImage{
+            margin-top: 10rem;
+            &.desktopImage{
+              @include media-breakpoint-down(md){
+                display: none;
+              }
+            }
+          }
+          @include media-breakpoint-down(md){
+            margin-top: 5rem;
+            flex-direction: column;
+            &.left{
+              flex-direction: column-reverse;
+            }
           }
 
           .verbage{
@@ -158,6 +195,7 @@
             margin: auto;
             @include media-breakpoint-down(md){
               width: auto;
+              margin-bottom: 3rem;
             }
           }
           .relatedImage{
@@ -166,11 +204,67 @@
             width: 60%;
             margin: auto;
             @include media-breakpoint-down(md){
+              justify-content: center;
+            }
+            &.left{
+              justify-content: center;
+              &.gifDesktop{
+                justify-content: flex-start;
+                @include media-breakpoint-down(md){
+                  justify-content: center;
+                }
+                .gifDestopImg{
+                  width: 90%;
+                  @include media-breakpoint-down(md){
+                    width: 100%;
+                  }
+                }
+              }
+
+            }
+            @include media-breakpoint-down(md){
               width: auto;
+              margin-bottom: 1rem;
+            }
+
+            &.gif{
+              @include media-breakpoint-down(md){
+                justify-content: center;
+              }
             }
             .contentImage{
               width: 90%;
+              &.tiles{
+                width: 60%;
+                margin-right: 8rem;
+                @include media-breakpoint-down(md){
+                  margin-right: 0;
+                }
+              }
+              &.gif{
+                width: 50%;
+                @include media-breakpoint-down(md){
+                  justify-content: center;
+                }
+              }
+
             }
+            &.twoImages{
+              width: 50%;
+              @include media-breakpoint-down(md){
+                width: 100%;
+                justify-content: center;
+              }
+
+              .longMobile{
+                width: 60%;
+              }
+            }
+            &.oneImages{
+              justify-content: center;
+              width: 100%;
+            }
+
           }
         }
       }
