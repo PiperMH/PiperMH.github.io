@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3abe230-2548-4d98-9039-af837aa367e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/LogIn4.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Login3.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/LoginCombo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/LoginCombo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/laptopAndPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/login.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loginMobile2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobile-Nav2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/navChangeDash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/navChangeDashMobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/repsonsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sitemap_only.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/themes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gocorsicana.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gocorsicana.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/gocorsicana.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/gocorsicana.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/gocorsicana.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -127,10 +120,11 @@
         <option value="$PROJECT_DIR$/mainFunctions.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/gocorsicana.scss" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="734" />
     <option name="y" value="62" />
     <option name="width" value="1091" />
@@ -151,11 +145,6 @@
             <path>
               <item name="pipermh.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="pipermh.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pipermh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pipermh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pipermh.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -220,15 +209,15 @@
       <workItem from="1572212719038" duration="6737000" />
       <workItem from="1573328996038" duration="79656000" />
       <workItem from="1574260040845" duration="53386000" />
-      <workItem from="1574638927301" duration="18241000" />
+      <workItem from="1574638927301" duration="18267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179112000" />
+    <option name="totallyTimeSpent" value="179138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
@@ -398,6 +387,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
