@@ -163,6 +163,68 @@
               width: initial;
             }
           }
+          &.catalogDesktop{
+            margin-top: 10rem;
+            flex-direction: column-reverse;
+            @include media-breakpoint-down(md){
+              margin-top: 7rem;
+            }
+            .verbage{
+              width: 60%;
+              @include media-breakpoint-down(md){
+                width: 100%;
+              }
+            }
+            .relatedImage{
+              justify-content: center;
+              margin-top: 5rem;
+              width: 100%;
+              @include media-breakpoint-down(md){
+                margin-top: 3rem;
+                .contentImage{
+                  width: 100%;
+                }
+              }
+            }
+          }
+          &.imgAndGif{
+            .first{
+              display: flex;
+              flex-direction: column;
+              width: 70%;
+              @include media-breakpoint-down(md){
+                width: 100%;
+              }
+              .contentImage{
+                width: 100%;
+              }
+            }
+            .second{
+              width: 30%;
+              @include media-breakpoint-down(md){
+                width: 100%;
+              }
+              .contentImage{
+                width: 80%;
+              }
+            }
+            .mobileGif{
+              .contentImage{
+                width: 60%;
+              }
+            }
+            &.future{
+              @include media-breakpoint-down(md){
+                flex-direction: column-reverse;
+              }
+              .relatedImage{
+                justify-content: flex-start;
+                @include media-breakpoint-down(md){
+                  justify-content: center;
+                }
+              }
+            }
+          }
           &.images{
             margin-top: 10rem;
             &.mobileVersion{
@@ -180,6 +242,10 @@
               @include media-breakpoint-down(md){
                 display: none;
               }
+            }
+            .relatedImage{
+              justify-content: center;
+              width: 100%;
             }
           }
           @include media-breakpoint-down(md){
@@ -207,7 +273,7 @@
               justify-content: center;
             }
             &.left{
-              justify-content: center;
+              justify-content: flex-start;
               &.gifDesktop{
                 justify-content: flex-start;
                 @include media-breakpoint-down(md){
@@ -265,6 +331,17 @@
               width: 100%;
             }
 
+          }
+          .fullImage{
+            width: 100%;
+            .contentImage{
+              width: 100%;
+            }
+          }
+          #onboardingMock{
+            .contentImage{
+              width: 90%;
+            }
           }
         }
       }
