@@ -66,30 +66,27 @@
                 <div class="innerContainer">
                     <div class="intro">
                         <div class="role">
-                           <h2>Project Description</h2>
+                           <h2>About GoCorsicana</h2>
                         </div>
                         <div class="introContent">
-                            Design and develop a mobile friendly role-based portal to aggregate reports and processes for Corsicana Matttress Company.
+                           GoCorsicana is a proprietary role based platform for internal and business to business use.
                         <div class="description">
                            <h3>Reasoning</h3>
-                            Over the past decade more and more companies are migrating and creating a virtual presence. By removing human interaction from different processes companies and customers reap the benefits. Customers can access tracking information with a click of a button,
-                            companies can repurpose manpower to other crucial areas of their businesses. Innovative companies like Amazon, and Google have revolutionized the concept of an "Online Company". <br> <br>
-
-                            By redesigning the way Corsicana Mattress does business the company they will  be able to help customer for efficiently, increase market share, build a stronger brand, increase credibility and reputation, and become more cost efficient.
+                            Sales reps and managers are expected increase market share while maintaining current customer relations. However, Corsicana Mattresses (CM) processes have become outdated and non efficient, which
+                            is causing the use of unnecessary department resources. By redesigning the way Corsicana Mattress does business, GoCorsicana will
+                            be able to help customer more efficiently, increase market share, build a stronger brand, increase credibility and reputation, and become more cost efficient.
                         </div>
                         <div class="description">
                             <h3>Objective</h3>
-                            I designed and helped develop a role based online portal that aggregates reports and business applications in to one easily accessible location.
+                            To designed and helped develop a role based online portal that aggregates reports and business applications in to one easily accessible location.
                         </div>
                         <div class="description">
-                            <h3>Challenges</h3>
-                            <ul>
-                                <li>Required a complete understanding of the company's infrastructure which included current employee roles and
-                                privileges, the structures of the enterprise and transportation management system.</li>
-                                <li>Portal architecture must be able to adapt and scale for future requirements.</li>
-                                <li>Integrate third party applications</li>
-                            </ul>
-
+                            <h3>Approach</h3>
+                            To create the portal my lead architect and business analyst first outlined the infrastructure between the company’s enterprise software, tracking software and the future web application.
+                            Once the we applications architecture was decided, I spent time researching other SAAS applications and how they outlined their services interfaces.
+                            After analyzing other applications, I was able to create low fidelity mock-ups of the portals interface using photoshop and XD. My team members and
+                            I then discussed the pros and cons of the mock-ups and decided on the most efficient interface design. Once this decision was made,
+                            I worked with my senior front end developer to build the portal’s APIs and interface.
                         </div>
                         <div class="description">
                             <h3>Role</h3>
@@ -105,30 +102,17 @@
                     <div class="subContent">
                         <div class="titleContainer">
                             <div class="title">
-                                <h1 class="name">OUTLINING THE PROBLEM</h1>
+                                <h1 class="name">Research</h1>
                             </div>
                         </div>
                         <div class="description">
                             <div class="verbage">
                                 <h2>Research</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-
-                            </div>
-                            <div class="relatedImage">
-                                <img src="images/review.png" alt="Display of other sites" class="contentImage">
-                            </div>
-
-                        </div>
-                        <div class="description left">
-                            <div class="relatedImage left">
-                                <img src="images/themes.png" alt="Display of other sites" class="contentImage tiles">
-
-                            </div>
-                            <div class="verbage">
-                                <h2>Insights</h2>
-                                After reviewing multiple SAAS applications I was able to gather enough information to determine which design approach would be best for a text heavy SASS. The following are some common themes I found.
+                                Before creating detailed mock-ups, I reviewed other SAAS applications.
+                                My goal was to understand what type of interface design was most commonly used.
+                                By comparing other websites I was able to get insight into what other company's viewed as the best user experience.
+                                <br><br>
+                                I found out that data and text heavy SASS applications have the following commonalities.
                                 <ul>
                                     <li>Compatible with multiple browsers</li>
                                     <li>Responsive and mobile friendly </li>
@@ -138,15 +122,19 @@
                                 </ul>
 
                             </div>
+                            <div class="relatedImage">
+                                <img src="images/review.png" alt="Display of other sites" class="contentImage">
+                            </div>
+
                         </div>
                         <div class="description">
                             <div class="verbage">
                                 <h2>Implementation</h2>
-                                Based on my research, I was able to outline important features necessary to create a productive application.
+                                Based on my research, I was able to outline important features necessary to create a efficient portal interface.
                                 <h3>Accessibility</h3>
                                 <ul>
-                                    <li>Easy athentication and password manager</li>
-                                    <li>Intuitive navigation and site map</li>
+                                    <li>Easy authentication and password manager</li>
+                                    <li>Intuitive navigation</li>
                                     <li>Distraction free</li>
                                     <li>Minimal actions</li>
                                     <li>Compatibility with different devices and browsers</li>
@@ -154,13 +142,8 @@
                                 <h3>Content</h3>
                                 <ul>
                                     <li>Initial dashboard with KPIS and links to applications</li>
-                                    <li>Analytic Reports</li>
-                                    <li>Purposeful Applications</li>
-                                    <ul>
-                                        <li>Order Tracker</li>
-                                        <li>Customer Onboarding</li>
-                                        <li>Customer Catalog</li>
-                                    </ul>
+                                    <li>Analytic reports</li>
+                                    <li>Business services</li>
                                 </ul>
 
                             </div>
@@ -174,10 +157,29 @@
                     <div class="subContent">
                         <div class="titleContainer">
                             <div class="title">
-                                <h1 class="name">DESIGNS</h1>
+                                <h1 class="name">Designs</h1>
                             </div>
                         </div>
-                        <div class="description images">
+
+                        <div class="description followSingle">
+                            <div class="fullImage">
+                                <img src="images/MockLogin.png" alt="Display of other sites" class="contentImage">
+                            </div>
+                        </div>
+                        <div class="description single">
+                            <div class="verbage single">
+                                <h3>Transformation</h3>
+                                The first mock-ups for both the log in screen and the portal template did not end up being the final product. With multiple versions and iterations the product owner
+                                decided on a design that incorporated both thw initial and new ideas. As the portal itself developed so did the message, and for this reason the decision was made to
+                                take advantage of the login page's real estate by including the portal's purpose and current services.
+                            </div>
+                        </div>
+                        <div class="description followSingle">
+                            <div class="fullImage">
+                                <img src="images/loginLanding4.png" alt="Display of other sites" class="contentImage">
+                            </div>
+                        </div>
+                        <div class="description images followSingle">
                             <div class="relatedImage twoImages">
                                 <img src="images/Login3.2.png" alt="Display of other sites" class="contentImage loginDesktop">
                             </div>
@@ -209,16 +211,17 @@
                             </div>
                         </div>
                         <div class="description oneImage">
-                            <div class="relatedImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/dashboard.gif" alt="Display of other sites" class="contentImage newDashboard">
                             </div>
                         </div>
                         <div class="description">
                             <div class="verbage">
-                                <h2>Navigation</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
+                                <h3>Responsiveness</h3>
+                                Making sure that the portal and its applications were compatible with different web browsers, operating systems, and devices was the biggest design requirement.
+                                This was also one of the biggest frustrations. When you design and develop interfaces you quickly realize how complicated it is to build for every device out there. <br> <br>
+                                As the portal continues to grow, the more responsive and compatible it becomes. QA is not only important for application behavoir purposes, but also to make sure an element or
+                                style is supported by a browser or operating system.
 
                             </div>
                             <div class="relatedImage gif">
@@ -226,22 +229,9 @@
                             </div>
 
                         </div>
-                        <div class="description left">
-                            <div class="relatedImage left gifDesktop">
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/login.gif" alt="Display of other sites" class="contentImage gifDestopImg">
-
-                            </div>
-                            <div class="verbage">
-                                <h2>Login</h2>
-                                After reviewing multiple SAAS applications I was able to gather enough information to determine which design approach would be best for a text heavy SASS. The following are some common themes I found.
-                                <ul>
-                                    <li>Compatible with multiple browsers</li>
-                                    <li>Responsive and mobile friendly </li>
-                                    <li>Light template themes</li>
-                                    <li>Collapsible or thin navigation</li>
-                                    <li>Initial high level dashboard</li>
-                                </ul>
-
                             </div>
                         </div>
                     </div>
@@ -260,6 +250,14 @@
                                 <img src="images/LoginCombo2.png" alt="Display of other sites" class="contentImage loginDesktop">
                             </div>
                         </div>
+                        <div class="description single">
+                            <div class="verbage single">
+                                <h3> New Look </h3>
+                                As we began to plan for future users and applications, it was decided to re-brand the portal.
+                                The reason behind the changes were that current log in screen included content that did not pertain to future users and it was too busy.
+                                The portal template also needed to be redesigned to reduce the navigation size to allow more room for content.
+                            </div>
+                        </div>
                         <div class="description oneImage">
                             <div class="relatedImage">
                                 <img src="images/newDashboard.png" alt="Display of other sites" class="contentImage newDashboard">
@@ -275,33 +273,39 @@
                 <div class="innerContainer">
                     <div class="intro">
                         <div class="role">
-                            <h2>Project Description</h2>
+                            <h2>About Order Tracker</h2>
                         </div>
                         <div class="introContent">
-                            Design and develop a mobile friendly role based order tracking application.
+                            Order Tracker is an application in the GoCorsicana Portal that allows the sales team, customer services, and customers to easily track orders.
                             <div class="description">
                                 <h3>Reasoning</h3>
-                                Many companies now offer online tracking for customer orders, which has caused it to become an expected service. One of the biggest issues for customers
-                                when ordering from manufactuers is not knowing an ETA for your shipment. Without the ETA customers spend unnecesary money on dayworkers to help unload orders. BY building an
-                                online order tracker Coriscana Mattress will be able to help their customers.
+                                The sales team and customers of Corsicana Mattress did not have a fast and efficient way to track orders.
+                                Sales reps and customers would have to call customer service for updates on current orders.
+                                Corsicana mattress wanted to create an online application that would allow sales reps and customers to easily track
+                                their orders and reduce the amount of time customer service spent on relaying order updates.
                             </div>
                             <div class="description">
                                 <h3>Objective</h3>
-                                I designed and helped develop a role based order tracking application that allows sales managers, sales reps, and customers track orders.
+                                To create a mobile responsive role-based application where a sales rep or customer could easily access their order’s details and tracking information.
                             </div>
                             <div class="description">
-                                <h3>Challenges</h3>
-                                <ul>
-                                    <li>Determining the best approach to pulling data from EP and TMS systems</li>
-                                    <li>Designing an easy to read mobile responsive interface that is data and text heavy</li>
-                                </ul>
+                                <h3>Approach</h3>
+                                To create the application my team’s business analyst and lead architect outline the approach needed to pull order detail information from Corsicana Mattresses’ EP system and tracking information
+                                from the TMS system. Once the approach had been decided, our business analyst gathered requirements by discussing with the director of sales about the information needed to be accessible in the application.
+                                With the processes and requirements documented, I designed a few low fidelity mock-ups using photoshop and XD of the potential application.
+                                My team members and I then discussed and decided on the most efficient and mobile responsive interface.
+                                With the designs in hand, I built out the front-end APIs and interface for the tracking application.<br><br>
+
+                                After the front end and server side of the application was connected, my business analysts and I QA tested to make sure
+                                the application behaved correctly. With a few minor adjustments my team and I had built the first service in the
+                                GoCorsicana portal - the order tracking application.
                             </div>
                             <div class="description">
                                 <h3>Role</h3>
                                 <ul>
                                     <li>User Interface Designer</li>
                                     <li>Content Designer</li>
-                                    <li>Front End Developer</li>
+                                    <li>Front-end Developer</li>
                                 </ul>
                             </div>
                         </div>
@@ -310,19 +314,7 @@
                     <div class="subContent">
                         <div class="titleContainer">
                             <div class="title">
-                                <h1 class="name">OUTLINING THE PROBLEM</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="subContent">
-                        <div class="titleContainer">
-                            <div class="title">
                                 <h1 class="name">DESIGNS</h1>
-                            </div>
-                        </div>
-                        <div class="description oneImage">
-                            <div class="relatedImage fullImage">
-                                <img src="images/fedExMock.png" alt="Display of other sites" class="contentImage">
                             </div>
                         </div>
                         <div class="description left">
@@ -330,27 +322,25 @@
                                 <img src="images/orderMock1.png" alt="Display of other sites" class="contentImage">
                             </div>
                             <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
+                              <h3>Text Heavy</h3>
+                              The order tracker is a data driven application, which means it is text heavy. Designing an interface for a text heavy application comes with its own challenges.
+                                One of the biggest challenges faced was how to create an aesthetically pleasing interface that was also affective and efficient when used on both desktop and mobile devices.
 
                             </div>
                         </div>
-                        <div class="description">
-                            <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-                            </div>
-                            <div class="relatedImage">
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/orderMock2.png" alt="Display of other sites" class="contentImage">
                             </div>
                         </div>
                         <div class="description oneImage">
                             <div class="relatedImage fullImage">
                                 <img src="images/orderMock3.png" alt="Display of other sites" class="contentImage">
+                            </div>
+                        </div>
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
+                                <img src="images/fedExMock.png" alt="Display of other sites" class="contentImage">
                             </div>
                         </div>
                     </div>
@@ -384,10 +374,10 @@
 
                         <div class="description imgAndGif">
                             <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
+                                <h3>Future Users</h3>
+                                The current application has only been used by internal employees (e.g. sales reps and managers). As we approach releasing the GoCorsicana portal to external users (e.g. customers),  the order
+                                tracker application must be redesigned to be faster and more user friendly. While the queries are being rewritten to be more efficient, the front end is being redesigned for two different user types.
+                                One design will be implemented for sales reps and managers, and another design will be implemented for customers.
 
                             </div>
                             <div class="relatedImage">
@@ -395,16 +385,9 @@
                             </div>
                         </div>
 
-                        <div class="description imgAndGif future">
-                            <div class="relatedImage">
+                        <div class="description imgAndGif oneImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/customerTracking.gif" alt="Display of other sites" class="contentImage loginDesktop">
-                            </div>
-                            <div class="verbage">
-                                <h2>Customer</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-
                             </div>
                         </div>
 
@@ -417,33 +400,32 @@
                 <div class="innerContainer">
                     <div class="intro">
                         <div class="role">
-                            <h2>Project Description</h2>
+                            <h2>About Customer Catalog</h2>
                         </div>
                         <div class="introContent">
-                            Design and develop a mobile friendly role based order tracking application.
+                           Customer Catalog is an application in the GoCorsicana Portal that that allows sales reps to maintain their customer’s catalogs.
                             <div class="description">
                                 <h3>Reasoning</h3>
-                                Many companies now offer online tracking for customer orders, which has caused it to become an expected service. One of the biggest issues for customers
-                                when ordering from manufactuers is not knowing an ETA for your shipment. Without the ETA customers spend unnecesary money on dayworkers to help unload orders. BY building an
-                                online order tracker Coriscana Mattress will be able to help their customers.
+                                The sales team used three different software services to maintain their customer’s business.
+                                To consolidate the number of programs the sales team was using,
+                                Corsicana Mattress decided to integrate customer catalogs into the GoCorsicana portal.
                             </div>
                             <div class="description">
                                 <h3>Objective</h3>
-                                I designed and helped develop a role based order tracking application that allows sales managers, sales reps, and customers track orders.
+                                To create a mobile responsive application that allows sales reps to maintain their customer’s catalogs.
                             </div>
                             <div class="description">
-                                <h3>Challenges</h3>
-                                <ul>
-                                    <li>Determining the best approach to pulling data from EP and TMS systems</li>
-                                    <li>Designing an easy to read mobile responsive interface that is data and text heavy</li>
-                                </ul>
+                                <h3>Approach</h3>
+                                To create the application my team’s business analyst and lead architect outlined the infrastructure and requirements of the application.
+                                One the processes and requirements were documented, I designed a low fidelity mock-up using photoshop and XD of the potential application.
+                                My team members and I discussed and decided on the best user interface.
+                                The final mock-ups were given to an outsourced team who handled the development.
                             </div>
                             <div class="description">
                                 <h3>Role</h3>
                                 <ul>
                                     <li>User Interface Designer</li>
                                     <li>Content Designer</li>
-                                    <li>Front End Developer</li>
                                 </ul>
                             </div>
                         </div>
@@ -457,10 +439,9 @@
 
                         <div class="description">
                             <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
+                                <h2>Mobile First</h2>
+                                A mobile first design approach allows an application to be mobile friendly from the start. A mobile responsive application may be compatible with small devices but not optimized.
+                                Since sales reps and managers are always on the go, the applications that are pinnacle for their customer's success must be optimized for their phones not just responsive.
 
                             </div>
                             <div class="relatedImage">
@@ -474,16 +455,9 @@
                             </div>
                         </div>
 
-                        <div class="description left">
-                            <div class="relatedImage left gifDesktop">
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/onboarding.gif" alt="Display of other sites" class="contentImage gifDestopImg">
-                            </div>
-                            <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-
                             </div>
                         </div>
 
@@ -497,10 +471,9 @@
 
                         <div class="description imgAndGif">
                             <div class="verbage">
-                                <h2>Sales</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
+                                <h3>Custom Table</h3>
+                                The custom table my senior develop and I implemented allows all tables on GoCorsicana to be mobile friendly. As the screen's width shrinks columns are removed and the information is displayed
+                                within in an accordion.
 
                             </div>
                             <div class="relatedImage mobileGif">
@@ -512,13 +485,6 @@
                             <div class="relatedImage catalog">
                                 <img src="images/catalogDesktop.gif" alt="Display of other sites" class="contentImage">
                             </div>
-                            <div class="verbage">
-                                <h2>Customer</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-
-                            </div>
                         </div>
 
                     </div>
@@ -529,10 +495,10 @@
                 <div class="innerContainer">
                     <div class="intro">
                         <div class="role">
-                            <h2>Project Description</h2>
+                            <h2>About Customer Onboarding</h2>
                         </div>
                         <div class="introContent">
-                            Design and develop a mobile friendly role based order tracking application.
+                            Design and develop a mobile friendly role based customer onboarding application. (Application within the GoCorsicana Portal)
                             <div class="description">
                                 <h3>Reasoning</h3>
                                 Many companies now offer online tracking for customer orders, which has caused it to become an expected service. One of the biggest issues for customers
@@ -541,7 +507,7 @@
                             </div>
                             <div class="description">
                                 <h3>Objective</h3>
-                                I designed and helped develop a role based order tracking application that allows sales managers, sales reps, and customers track orders.
+                                I designed and over saw the completion of a role based customer customer onbaording application that allows sales reps and sales managers to easily onbaord new customers.
                             </div>
                             <div class="description">
                                 <h3>Challenges</h3>
@@ -555,7 +521,7 @@
                                 <ul>
                                     <li>User Interface Designer</li>
                                     <li>Content Designer</li>
-                                    <li>Front End Developer</li>
+                                    <li>Project Over Sight</li>
                                 </ul>
                             </div>
                         </div>
@@ -566,32 +532,28 @@
                                 <h1 class="name">DESIGN</h1>
                             </div>
                         </div>
-                        <div class="description oneImage">
-                            <div class="relatedImage">
-                                <img src="images/onbaordingMock1.png" alt="Display of other sites" class="contentImage newDashboard">
+
+                        <div class="description single">
+                            <div class="verbage single">
+                                <h3>Workflow</h3>
+                                Designing an interface means understanding the workflow of an application. The customer onboarding application involved three different departments who each
+                                played an intricate part of the process. The final workflow came to existent after multiple iterations of the initial process.
                             </div>
                         </div>
 
-                        <div class="description">
-                            <div class="verbage">
-                                <h2>Research</h2>
-                                Before creating detailed mock-ups I was interested reviewing other SAAS applications.
-                                My goal was to understand what layouts and designs were most commonly used.
-                                By comparing other websites I would get insight in to what other companies view as the best user experience.
-
-                            </div>
+                        <div class="description oneImage">
                             <div class="relatedImage">
+                                <img src="images/onboardingWorkflow.png" alt="Display of other sites" class="contentImage newDashboard">
+                            </div>
+                        </div>
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
                                 <img src="images/onboardingMock2.png" alt="Display of other sites" class="contentImage">
                             </div>
                         </div>
-                        <div class="description left">
-                            <div class="relatedImage left" id="onboardingMock">
-                                <img src="images/onboardingMock3.png" alt="Display of other sites" class="contentImage tiles">
-                            </div>
-                            <div class="verbage">
-                                <h2>Insights</h2>
-                                After reviewing multiple SAAS applications I was able to gather enough
-                                information to determine which design approach would be best for a text heavy SASS. The following are some common themes I found.
+                        <div class="description oneImage">
+                            <div class="relatedImage fullImage">
+                                <img src="images/onboardingMock3.png" alt="Display of other sites" class="contentImage">
                             </div>
                         </div>
                         <div class="description oneImage">
@@ -610,6 +572,15 @@
                         <div class="description">
                             <div class="fullImage">
                                 <img src="images/onboardingFirst3.png" alt="Display of other sites" class="contentImage">
+                            </div>
+                        </div>
+
+                        <div class="description single">
+                            <div class="verbage single">
+                                <h3>Design Vs. Reality</h3>
+                                High fidelity mock-ups become a template more than a blue print to build from. What is constructed in PhotoShop and XD may look
+                                and function better than what is built in HTML5 and CSS3. The final product may be very similar to the final mock-up but there are most likely a few
+                                adjustments in the final product.
                             </div>
                         </div>
 

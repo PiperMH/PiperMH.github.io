@@ -151,13 +151,22 @@
           display: flex;
           width: 90%;
           margin: auto;
-          margin-top: 15rem;
+          margin-top: 10rem;
           font-size: 1.125rem;
+          &.followSingle, &.single{
+            margin-top: 10rem;
+            @include media-breakpoint-down(md){
+              margin-top: 5rem;
+            }
+          }
           &.bottomImage{
             flex-direction: column;
             width: 60%;
             .verbage{
               margin-bottom: 5rem;
+              @include media-breakpoint-down(sm){
+                width: auto;
+              }
             }
             .verbage, .relatedImage{
               width: initial;
@@ -233,7 +242,11 @@
               }
               @include media-breakpoint-down(md){
                 display: flex;
+                margin-top: 5rem;
               }
+            }
+            @include media-breakpoint-down(md){
+              margin-top: 5rem;
             }
           }
           &.oneImage{
@@ -247,6 +260,9 @@
               justify-content: center;
               width: 100%;
             }
+            @include media-breakpoint-down(md){
+              margin-top: 5rem;
+            }
           }
           @include media-breakpoint-down(md){
             margin-top: 5rem;
@@ -259,9 +275,16 @@
           .verbage{
             width: 40%;
             margin: auto;
+            font-size: 1.2rem;
             @include media-breakpoint-down(md){
-              width: auto;
+              width: 100%;
               margin-bottom: 3rem;
+            }
+            &.single{
+              width: 60%;
+              @include media-breakpoint-down(md){
+                width: auto;
+              }
             }
           }
           .relatedImage{
