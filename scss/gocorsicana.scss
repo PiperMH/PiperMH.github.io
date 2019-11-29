@@ -162,6 +162,7 @@
           &.bottomImage{
             flex-direction: column;
             width: 60%;
+            height: auto;
             .verbage{
               margin-bottom: 5rem;
               @include media-breakpoint-down(sm){
@@ -170,6 +171,7 @@
             }
             .verbage, .relatedImage{
               width: initial;
+              height: auto;
             }
           }
           &.catalogDesktop{
@@ -188,10 +190,12 @@
               justify-content: center;
               margin-top: 5rem;
               width: 100%;
+              height: auto;
               @include media-breakpoint-down(md){
                 margin-top: 3rem;
                 .contentImage{
                   width: 100%;
+                  height: auto;
                 }
               }
             }
@@ -201,25 +205,32 @@
               display: flex;
               flex-direction: column;
               width: 70%;
+              height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
+                height: auto;
               }
               .contentImage{
                 width: 100%;
+                height: auto;
               }
             }
             .second{
               width: 30%;
+              height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
+                height: auto;
               }
               .contentImage{
                 width: 80%;
+                height: auto;
               }
             }
             .mobileGif{
               .contentImage{
                 width: 60%;
+                height: auto;
               }
             }
             &.future{
@@ -259,6 +270,7 @@
             .relatedImage{
               justify-content: center;
               width: 100%;
+              height: auto;
             }
             @include media-breakpoint-down(md){
               margin-top: 5rem;
@@ -291,6 +303,7 @@
             display: flex;
             justify-content: flex-end;
             width: 60%;
+            height: auto;
             margin: auto;
             @include media-breakpoint-down(md){
               justify-content: center;
@@ -306,6 +319,7 @@
                   width: 90%;
                   @include media-breakpoint-down(md){
                     width: 100%;
+                    height: auto;
                   }
                 }
               }
@@ -323,15 +337,10 @@
             }
             .contentImage{
               width: 90%;
-              &.tiles{
-                width: 60%;
-                margin-right: 8rem;
-                @include media-breakpoint-down(md){
-                  margin-right: 0;
-                }
-              }
+              height: auto;
               &.gif{
                 width: 50%;
+                height: auto;
                 @include media-breakpoint-down(md){
                   justify-content: center;
                 }
@@ -340,30 +349,37 @@
             }
             &.twoImages{
               width: 50%;
+              height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
                 justify-content: center;
+                height: auto;
               }
 
               .longMobile{
                 width: 60%;
+                height: auto;
               }
             }
             &.oneImages{
               justify-content: center;
               width: 100%;
+              height: auto;
             }
 
           }
           .fullImage{
             width: 100%;
+            height: auto;
             .contentImage{
               width: 100%;
+              height: auto;
             }
           }
           #onboardingMock{
             .contentImage{
               width: 90%;
+              height: auto;
             }
           }
         }
