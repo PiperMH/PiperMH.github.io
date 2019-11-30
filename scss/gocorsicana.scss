@@ -307,6 +307,9 @@
             }
             &.left{
               justify-content: flex-start;
+              @include media-breakpoint-down(md){
+                justify-content: center;
+              }
               &.gifDesktop{
                 justify-content: flex-start;
                 @include media-breakpoint-down(md){
