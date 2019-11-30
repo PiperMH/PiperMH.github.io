@@ -258,6 +258,22 @@
           overflow: auto;
           .twoProjHolder{
             height: 30vh;
+            @include media-breakpoint-up(lg) {
+              @media (orientation: landscape) {
+                height: 45vh;
+              }
+              @media (orientation: portrait) {
+                height: 45vh;
+              }
+            }
+            @include media-breakpoint-down(md) {
+              @media (orientation: landscape) {
+                height: 45vh;
+              }
+              @media (orientation: portrait) {
+                height: 45vh;
+              }
+            }
             .innerDiv{
               width: 90%;
               margin: auto;
@@ -291,11 +307,17 @@
             }
             @include media-breakpoint-down(sm) {
               flex-direction: row;
-              height: 25vh;
+              height: 30vh;
             }
             @include media-breakpoint-down(xs){
               height: 15vh;
             }
+            @include media-breakpoint-down(sm) {
+              .projOne, .projTwo{
+                width: 100%;
+              }
+            }
+
             }
           }
         }
