@@ -13,25 +13,43 @@
     background-color: #15161c;
     width: 25%;
     transition: width .5s ease;
-    .collapseIcon{
-      margin-top: 1rem;
-      .navButton{
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-align: left;
-        &.expand{
-          display: none;
-        }
-        i{
-          display: inline-block;
-          &.grow {
-            transition: all .2s ease-in-out;
-            &:hover {
-              transform: scale(1.2);
-              color: #b7b7b7;
-              cursor:pointer;
+    .actions{
+      display: flex;
+      justify-content: space-between;
+      .collapseIcon{
+        margin-top: .5rem;
+        .navButton{
+          color: #ffffff;
+          font-size: 1.5rem;
+          text-align: left;
+          &.expand{
+            display: none;
+          }
+          i{
+            display: inline-block;
+            &.grow {
+              transition: all .2s ease-in-out;
+              &:hover {
+                transform: scale(1.2);
+                color: #b7b7b7;
+                cursor:pointer;
+              }
             }
           }
+        }
+
+      }
+      button{
+        background: TRANSPARENT;
+        color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 6px;
+        border: #fff 2px solid;
+        font-family: EB Garamond,serif;
+        font-size: 1rem;
+        font-weight: 600;
+        @include media-breakpoint-down(md){
+          margin-top: 10px;
         }
       }
     }
@@ -53,6 +71,10 @@
           &.shrink{
             display: none;
           }
+        }
+        button{
+          font-size: 14px;
+         padding: .4rem .6rem;
         }
 
       }
