@@ -71,6 +71,7 @@
             height: 100%;
             @include media-breakpoint-down(md) {
               width: 80%;
+              height: 100%;
             }
           }
 
@@ -195,7 +196,7 @@
                 margin-top: 3rem;
                 .contentImage{
                   width: 100%;
-                  height: auto;
+                  height: 100%;
                 }
               }
             }
@@ -208,11 +209,10 @@
               height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
-                height: auto;
+                height: 100%;
               }
               .contentImage{
                 width: 100%;
-                height: auto;
               }
             }
             .second{
@@ -220,17 +220,15 @@
               height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
-                height: auto;
+                height: 100%;
               }
               .contentImage{
                 width: 80%;
-                height: auto;
               }
             }
             .mobileGif{
               .contentImage{
                 width: 60%;
-                height: auto;
               }
             }
             &.future{
@@ -270,7 +268,6 @@
             .relatedImage{
               justify-content: center;
               width: 100%;
-              height: auto;
             }
             @include media-breakpoint-down(md){
               margin-top: 5rem;
@@ -319,7 +316,7 @@
                   width: 90%;
                   @include media-breakpoint-down(md){
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                   }
                 }
               }
@@ -353,7 +350,7 @@
               @include media-breakpoint-down(md){
                 width: 100%;
                 justify-content: center;
-                height: auto;
+                height: 100%;
               }
 
               .longMobile{
@@ -379,7 +376,7 @@
           #onboardingMock{
             .contentImage{
               width: 90%;
-              height: auto;
+              height: 100%;
             }
           }
         }
@@ -433,15 +430,16 @@
       .mobilePhones {
         display: flex;
         justify-content: center;
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           flex-direction: column;
         }
 
         .phoneExamples {
           width: 80%;
           height: auto;
-          @include media-breakpoint-down(sm) {
+          @include media-breakpoint-down(md) {
             width: 70%;
+            height: 100%;
           }
         }
       }
