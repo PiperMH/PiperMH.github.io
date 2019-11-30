@@ -163,7 +163,7 @@
           &.bottomImage{
             flex-direction: column;
             width: 60%;
-            height: auto;
+            height: 100%;
             .verbage{
               margin-bottom: 5rem;
               @include media-breakpoint-down(sm){
@@ -206,7 +206,7 @@
               display: flex;
               flex-direction: column;
               width: 70%;
-              height: auto;
+              height: 100%;
               @include media-breakpoint-down(md){
                 width: 100%;
                 height: 100%;
@@ -218,12 +218,14 @@
             .second{
               width: 30%;
               height: auto;
+              height: 100%;
               @include media-breakpoint-down(md){
                 width: 100%;
                 height: 100%;
               }
               .contentImage{
                 width: 80%;
+                height: 100%;
               }
             }
             .mobileGif{
@@ -300,7 +302,7 @@
             display: flex;
             justify-content: flex-end;
             width: 60%;
-            height: auto;
+            height: 100%;
             margin: auto;
             @include media-breakpoint-down(md){
               justify-content: center;
@@ -317,6 +319,7 @@
                 }
                 .gifDestopImg{
                   width: 90%;
+                  height: 100%;
                   @include media-breakpoint-down(md){
                     width: 100%;
                     height: 100%;
@@ -337,6 +340,7 @@
             }
             .contentImage{
               width: 90%;
+              height: 100%;
               @include media-breakpoint-down(md){
                 justify-content: center;
                 height: 100%;
@@ -352,6 +356,7 @@
             }
             &.twoImages{
               width: 50%;
+              height: 100%;
               @include media-breakpoint-down(md){
                 width: 100%;
                 justify-content: center;
@@ -360,17 +365,19 @@
 
               .longMobile{
                 width: 60%;
+                height: 100%;
               }
             }
             &.oneImages{
               justify-content: center;
               width: 100%;
+              height: 100%;
             }
 
           }
           .fullImage{
             width: 100%;
-            height: auto;
+            height: 100%;
             .contentImage{
               width: 100%;
               height: 100%;
@@ -439,7 +446,7 @@
 
         .phoneExamples {
           width: 80%;
-          height: auto;
+          height: 100%;
           @include media-breakpoint-down(md) {
             width: 70%;
             height: 100%;
