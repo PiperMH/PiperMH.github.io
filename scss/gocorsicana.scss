@@ -334,19 +334,21 @@
             }
             .contentImage{
               width: 90%;
-              height: auto;
+              @include media-breakpoint-down(md){
+                justify-content: center;
+                height: 100%;
+              }
               &.gif{
                 width: 50%;
-                height: auto;
                 @include media-breakpoint-down(md){
                   justify-content: center;
+                  height: 100%;
                 }
               }
 
             }
             &.twoImages{
               width: 50%;
-              height: auto;
               @include media-breakpoint-down(md){
                 width: 100%;
                 justify-content: center;
@@ -355,13 +357,11 @@
 
               .longMobile{
                 width: 60%;
-                height: auto;
               }
             }
             &.oneImages{
               justify-content: center;
               width: 100%;
-              height: auto;
             }
 
           }
@@ -370,7 +370,7 @@
             height: auto;
             .contentImage{
               width: 100%;
-              height: auto;
+              height: 100%;
             }
           }
           #onboardingMock{
