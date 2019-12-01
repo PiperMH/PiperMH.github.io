@@ -156,9 +156,18 @@
             justify-content: center;
             width:100%;
             height: 50vh;
+            .tileExpandIcon{
+              display: none;
+            }
+            .tileShrinkIcon{
+              display: none;
+            }
             @include media-breakpoint-down(sm){
               flex-direction: column;
               height: auto;
+              .tileExpandIcon{
+                display: block;
+              }
             }
             .projects{
               display: flex;
@@ -175,11 +184,21 @@
                 h2{
                   color: #fff;
                 }
+                .tileShrinkIcon{
+                  display: block;
+                  color: #ffffff;
+                }
+                .tileExpandIcon{
+                  display: none;
+                }
               }
               &:hover{
                 cursor: pointer;
                 h2{
                   color: #fff;
+                }
+                .tileExpandIcon{
+                  color: #ffffff;
                 }
               }
               h2{
