@@ -48,6 +48,11 @@
         font-family: EB Garamond,serif;
         font-size: 1rem;
         font-weight: 600;
+        &:hover{
+          cursor: pointer;
+          background-color: #ffffff;
+          color: #000000;
+        }
         @include media-breakpoint-down(md){
           margin-top: 10px;
         }
