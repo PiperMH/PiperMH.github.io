@@ -185,8 +185,10 @@
                   color: #fff;
                 }
                 .tileShrinkIcon{
-                  display: block;
-                  color: #ffffff;
+                  @include media-breakpoint-down(md){
+                    display: block;
+                    color: #ffffff;
+                  }
                 }
                 .tileExpandIcon{
                   display: none;
@@ -306,6 +308,9 @@
               }
             }
             .projects{
+              .tileShrinkIcon{
+                display: none;
+              }
               width: auto;
               height: auto;
               cursor: pointer;
